@@ -5,7 +5,7 @@ const stringToWrite = process.argv[3];
 const moduleImport = require('fs');
 
 moduleImport.writeFile(filePath, stringToWrite, 'utf-8', (err) => {
-    if (err) {
-        console.log(err);
-    }
-    });
+  if (err) {
+    console.log(err);
+  }
+});
